@@ -22,8 +22,8 @@ We trained and evaluated multiple linear algorithms. The **Lasso Regression** mo
 | Model | MAE | RMSE | $R^2$ Score |
 | :--- | :--- | :--- | :--- |
 | **Tuned Lasso Regression** | **0.0425** | **0.0608** | **81.91%** |
-| **Multiple Linear Regression (OLS)** | 0.0427 | 0.0608 | 0.8188% |
-| **Tuned Ridge Regression** | 0.0428 | 0.0610 | 0.8183% |
+| **Multiple Linear Regression (OLS)** | 0.0427 | 0.0608 | 81.88% |
+| **Tuned Ridge Regression** | 0.0428 | 0.0610 | 81.83% |
 
 ### Statistical Validation (Diagnostics):
 * **Multicollinearity:** Checked via Variance Inflation Factors (VIF). All final features scored below **4.65**, proving no severe multicollinearity was present.
